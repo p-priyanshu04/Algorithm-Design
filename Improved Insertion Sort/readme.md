@@ -34,10 +34,12 @@ Finally:
 
 ## Files
 
+Improved Insertion Sort
 │
 ├── improved_insertion_sort.py # Improved algorithm
 ├── insertion_sort.py # Basic insertion sort
 └── data_generator.py # Benchmark + plotting
+└── readme.md
 
 ---
 
