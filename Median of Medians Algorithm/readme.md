@@ -34,24 +34,12 @@ This is achieved using the **Median of Medians (deterministic selection)** algor
 
 ---
 
-## Approach
-
-1. Extract all incomes
-2. Compute median using Median-of-Medians selection (worst-case O(n))
-3. Compute distance of each income from median
-4. Select k smallest distances using linear-time selection
-5. Print corresponding IDs
-
-This guarantees **O(n)** worst-case time.
-
----
-
 ## Folder Structure
 
 ```text
-assignment-04-median-taxpayers/
+Median of Medians Algorithm/
 │
-├── assignment4.py
+├── median_of_medians_algortihm.py
 └── readme.md
 ```
 

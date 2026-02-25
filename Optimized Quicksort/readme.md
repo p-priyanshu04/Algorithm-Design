@@ -35,8 +35,8 @@ The goal is to study practical performance improvements and memory behavior of Q
 ## Folder Structure
 
 ```text
-assignment-02-optimized-quicksort/
+Optimized Quicksort/
 │
 ├── optimized_quicksort.py
-└── README.md
+└── readme.md
 ```
