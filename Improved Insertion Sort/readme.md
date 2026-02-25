@@ -2,15 +2,15 @@
 
 ## Overview
 
-This assignment implements an optimized version of the classical **Insertion Sort** algorithm.  
-The goal is to study how small algorithmic improvements affect performance when working with **large-scale datasets**.
+This assignment implements an optimized version of the classical Insertion Sort algorithm.  
+The goal is to study how small algorithmic improvements affect performance when working with large-scale datasets.
 
 Two main optimizations are introduced:
 
-1. Using **binary search** to find the insertion position.
-2. Inserting **two elements at a time** instead of one.
+1. Using binary search to find the insertion position
+2. Inserting two elements at a time instead of one
 
-The performance of this improved version is compared against the standard insertion sort on very large randomly generated datasets.
+The performance of this improved version is compared against the standard insertion sort on randomly generated datasets.
 
 ---
 
@@ -18,7 +18,7 @@ The performance of this improved version is compared against the standard insert
 
 Implement an improved insertion sort with the following features:
 
-1. Use binary search to determine the correct position of an element.
+1. Use binary search to determine the correct position of an element
 2. Instead of inserting one element at a time:
    - Process two elements together
    - Insert the larger element first
@@ -32,22 +32,22 @@ Finally:
 
 ---
 
-## Files
+## Folder Structure
 
-Improved Insertion Sort
+```text
+assignment-01-improved-insertion-sort/
 │
-├── improved_insertion_sort.py # Improved algorithm
-├── insertion_sort.py # Basic insertion sort
-└── data_generator.py # Benchmark + plotting
-└── readme.md
+├── improved_insertion_sort.py
+├── insertion_sort.py
+├── data_generator.py
+└── README.md
+```
 
 ---
 
 ## How to Run
 
-Make sure all three files are in the same folder.
-
-Run:
+Make sure all files are in the same folder.
 
 ```bash
 python test.py
