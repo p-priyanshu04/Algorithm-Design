@@ -52,7 +52,6 @@ class HashTable:
         id.append(i[1])
     return id
 
-# 🔹 Taking input from command line
 file = sys.argv[1]
 m = int(sys.argv[2])
 word1 = sys.argv[3]
